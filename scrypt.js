@@ -14,7 +14,7 @@ function res4(){
 	if(Number(document.getElementById('y4').value) != 0){
 		document.getElementById('res4').innerHTML = Number(document.getElementById('x4').value) / Number(document.getElementById('y4').value);
 	}else{
-		document.getElementById('res4').innerHTML = 'На ноль делить нельзя!'
+		document.getElementById('res4').innerHTML = "You can't divide by zero!";
 	}
 }
 
